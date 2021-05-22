@@ -97,8 +97,8 @@ if __name__ == "__main__":
                 "faceProb": result[12],
                 "partialFace": result[35],
                 "eyesProb": "{:.4f}   {:.4f}".format(result[21], result[30]),
-                "blink_prob": "{:.4f}   {:.4f}".format(result[31], result[32]),
-                "distracted_eyes": result[37]
+                "blinkProb": "{:.4f}   {:.4f}".format(result[31], result[32]),
+                "distractedEyes": result[37]
             }
 
             render(display, frame, driver_state)
